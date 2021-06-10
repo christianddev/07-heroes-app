@@ -18,7 +18,7 @@ const SearchScreen = ({history}) => {
     const heroesFiltered = useMemo(() => getHeroesBySuperhero(queryName), [queryName])
     const handleSearch = (e) => {
         e.preventDefault();
-        history.push(`?queryName=${name}`)
+        history.push(`?queryName=${name}`);
     };
     
 
