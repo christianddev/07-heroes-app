@@ -2,15 +2,14 @@ import { mount } from "enzyme"
 import { MemoryRouter } from "react-router"
 import { AuthContext } from "../../auth/AuthContext"
 import DashboardRoutes from "../../routers/DashboardRoutes"
+import { userMockLogged } from "../fixtures/userMock"
 
 describe('DashboardRoutes.js', () => {
   const contextvalue = {
     dispath: jest.fn(),
-    user: {
-      logged: true,
-      name: 'usuarioXD100'
-    }
+    user: userMockLogged
   }
+  
   test('should show DashboardRoutes', () => {
     const wrapper = mount(
       <AuthContext.Provider value={contextvalue}>

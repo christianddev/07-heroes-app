@@ -2,6 +2,7 @@ import React from 'react';
 import { mount } from "enzyme"
 import { AuthContext } from "../../auth/AuthContext"
 import AppRouter from "../../routers/AppRouter"
+import { userMockLogged } from '../fixtures/userMock';
 
 describe('AppRouter.js', () => {
 
@@ -25,10 +26,7 @@ describe('AppRouter.js', () => {
   test('should show Marvel Component if user has authenticated', () => {
     const contextvalue = {
       dispath: jest.fn(),
-      user: {
-        logged: true,
-        name: 'user'
-      }
+      user: userMockLogged
     }
     const wrapper = mount(
       <AuthContext.Provider value={contextvalue}>

@@ -8,10 +8,10 @@ const Navbar = () => {
     const {user: {name}, dispatch} = useContext(AuthContext);
     const history = useHistory();
     const handleLogout = () => {
+        history.replace('/login');
         dispatch({
             type: types.logout
         })
-        history.replace('/login');
     };
 
     return (

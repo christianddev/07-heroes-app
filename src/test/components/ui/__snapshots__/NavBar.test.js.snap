@@ -1,12 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavBar.js should  1`] = `
+exports[`Pruebas en <Navbar /> debe de mostrarse correctamente 1`] = `
 <nav
   className="navbar navbar-expand-sm navbar-dark bg-dark"
 >
   <a
     className="navbar-brand"
-    href="/"
     onClick={[Function]}
   >
     Asociaciones
@@ -20,7 +19,6 @@ exports[`NavBar.js should  1`] = `
       <a
         aria-current={null}
         className="nav-item nav-link"
-        href="/marvel"
         onClick={[Function]}
       >
         Marvel
@@ -28,7 +26,6 @@ exports[`NavBar.js should  1`] = `
       <a
         aria-current={null}
         className="nav-item nav-link"
-        href="/dc"
         onClick={[Function]}
       >
         DC
@@ -36,7 +33,6 @@ exports[`NavBar.js should  1`] = `
       <a
         aria-current={null}
         className="nav-item nav-link"
-        href="/search"
         onClick={[Function]}
       >
         Search
@@ -52,7 +48,7 @@ exports[`NavBar.js should  1`] = `
       <span
         className="nav-item ml-auto text-info  nav-link"
       >
-        usuarioNavBar
+        userMocklogged
       </span>
       <button
         className="nav-item nav-link btn"
