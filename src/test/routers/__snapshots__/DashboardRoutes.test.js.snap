@@ -89,7 +89,7 @@ Array [
               <img
                 alt="marvel-spider"
                 className="card-img"
-                src="./assets/heroes/marvel-spider.jpg"
+                src=""
               />
             </div>
             <div
@@ -144,7 +144,7 @@ Array [
               <img
                 alt="marvel-captain"
                 className="card-img"
-                src="./assets/heroes/marvel-captain.jpg"
+                src=""
               />
             </div>
             <div
@@ -199,7 +199,7 @@ Array [
               <img
                 alt="marvel-iron"
                 className="card-img"
-                src="./assets/heroes/marvel-iron.jpg"
+                src=""
               />
             </div>
             <div
@@ -254,7 +254,7 @@ Array [
               <img
                 alt="marvel-thor"
                 className="card-img"
-                src="./assets/heroes/marvel-thor.jpg"
+                src=""
               />
             </div>
             <div
@@ -309,7 +309,7 @@ Array [
               <img
                 alt="marvel-hulk"
                 className="card-img"
-                src="./assets/heroes/marvel-hulk.jpg"
+                src=""
               />
             </div>
             <div
@@ -364,7 +364,7 @@ Array [
               <img
                 alt="marvel-wolverine"
                 className="card-img"
-                src="./assets/heroes/marvel-wolverine.jpg"
+                src=""
               />
             </div>
             <div
@@ -419,7 +419,7 @@ Array [
               <img
                 alt="marvel-daredevil"
                 className="card-img"
-                src="./assets/heroes/marvel-daredevil.jpg"
+                src=""
               />
             </div>
             <div
@@ -474,7 +474,7 @@ Array [
               <img
                 alt="marvel-hawkeye"
                 className="card-img"
-                src="./assets/heroes/marvel-hawkeye.jpg"
+                src=""
               />
             </div>
             <div
@@ -529,7 +529,7 @@ Array [
               <img
                 alt="marvel-cyclops"
                 className="card-img"
-                src="./assets/heroes/marvel-cyclops.jpg"
+                src=""
               />
             </div>
             <div
@@ -584,7 +584,7 @@ Array [
               <img
                 alt="marvel-silver"
                 className="card-img"
-                src="./assets/heroes/marvel-silver.jpg"
+                src=""
               />
             </div>
             <div

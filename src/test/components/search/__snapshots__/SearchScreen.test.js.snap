@@ -166,7 +166,7 @@ exports[`SearchScreen.js should search some hero (batman) using queryString 1`] 
             <img
               alt="dc-batman"
               className="card-img"
-              src="./assets/heroes/dc-batman.jpg"
+              src=""
             />
           </div>
           <div
